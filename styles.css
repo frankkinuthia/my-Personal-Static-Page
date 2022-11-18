@@ -1,0 +1,48 @@
+body {
+    background-image:url(./mombasa_food.jpg);
+    background-image:linear-gradient(to right,rgb(107, 106, 106) rgba(rgb(0, 0, 0), 0,0,0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.h1 {
+    color: beige;
+}
+
+.startdiv {
+    font-style: oblique;
+    font-size: larger;
+    padding-left: 70%;
+    padding-top: 5%;
+    color: beige;
+}
+
+.h2 {
+    font-size: large;
+    color: beige;
+    padding-left: 70%;
+    padding-top: 5%;
+}
+
+
+
+.menu {
+    font-style: oblique;
+    font-size: large;
+    padding-left: 70%;
+    padding-top: 1%;
+    padding-bottom: 35%;
+    color: beige;
+}
+
+#details div {
+    display: inline-block;
+    float:left;
+    text-align: center;
+    width: 33%;
+    font-size: large;
+    color: beige;
+  }
+
