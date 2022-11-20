@@ -14,9 +14,10 @@ body {
 .startdiv {
     font-style: oblique;
     font-size: larger;
-    padding-left: 70%;
-    padding-top: 5%;
+    /* padding-left: 70%; */
+    /* padding-top: 2%; */
     color: beige;
+    padding-left: 400px;
 }
 
 .h2 {
@@ -26,14 +27,17 @@ body {
     padding-top: 5%;
 }
 
-
+.column {
+    flex: 33.3%;
+    padding: 5px;
+    padding-left: 30%;
+    padding-top: 1%;
+}
 
 .menu {
     font-style: oblique;
     font-size: large;
-    padding-left: 70%;
-    padding-top: 1%;
-    padding-bottom: 35%;
+    padding-left: 850px;
     color: beige;
 }
 
@@ -46,3 +50,7 @@ body {
     color: beige;
   }
 
+.wrapper {
+    display: flex;
+
+}
